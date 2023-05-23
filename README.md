@@ -49,7 +49,7 @@ Translate Tool is a ReactJS application that utilizes Python and the OpenAI lang
    - Create a `.env` file in the project root directory.
    - Add the following line to the `.env` file, replacing `YOUR_API_KEY` with your actual API key:
      ```bash
-     REACT_APP_OPENAI_API_KEY=YOUR_API_KEY
+     OPENAI_API_KEY=YOUR_API_KEY
      ```
 
 ---
