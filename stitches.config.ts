@@ -8,7 +8,7 @@ export const {
   getCssText,
   globalCss,
   styled,
-  theme,
+  theme
 } = createStitches({
   theme: {
     colors: {
@@ -28,6 +28,28 @@ export const {
       purple400: 'hsl(252,75%,84%)',
       purple500: 'hsl(252,78%,60%)',
       purple600: 'hsl(252,80%,53%)',
+
+      red100: 'hsl(0,100%,99%)',
+      red200: 'hsl(0,100%,98%)',
+      red300: 'hsl(0,100%,94%)',
+      red400: 'hsl(0,75%,84%)',
+      red500: 'hsl(0,78%,60%)',
+      red600: 'hsl(0,80%,53%)'
+    },
+    dracula: {
+      background: '#282a36',
+      currentLine: '#44475a',
+      selection: '#44475a',
+      foreground: '#f8f8f2',
+      comment: '#6272a4',
+      cyan: '#8be9fd',
+      green: '#50fa7b',
+      orange: '#ffb86c',
+      pink: '#ff79c6',
+      purple: '#bd93f9',
+      purpleDark: '#9B6DDC',
+      red: '#ff5555',
+      yellow: '#f1fa8c'
     },
     space: {
       1: '5px',
@@ -35,7 +57,7 @@ export const {
       3: '15px',
       4: '20px',
       5: '25px',
-      6: '35px',
+      6: '35px'
     },
     sizes: {
       1: '5px',
@@ -43,7 +65,7 @@ export const {
       3: '15px',
       4: '20px',
       5: '25px',
-      6: '35px',
+      6: '35px'
     },
     fontSizes: {
       1: '12px',
@@ -51,32 +73,34 @@ export const {
       3: '15px',
       4: '17px',
       5: '19px',
-      6: '21px',
+      6: '21px'
     },
     fonts: {
       system: 'system-ui',
-    },
+      untitled: 'Untitled Sans, apple-system, sans-serif',
+      mono: 'Söhne Mono, menlo, monospace',
+    }
   },
   utils: {
     marginX: (value: Stitches.PropertyValue<'margin'>) => ({
       marginLeft: value,
-      marginRight: value,
+      marginRight: value
     }),
     marginY: (value: Stitches.PropertyValue<'margin'>) => ({
       marginTop: value,
-      marginBottom: value,
+      marginBottom: value
     }),
     paddingX: (value: Stitches.PropertyValue<'padding'>) => ({
       paddingLeft: value,
-      paddingRight: value,
+      paddingRight: value
     }),
     paddingY: (value: Stitches.PropertyValue<'padding'>) => ({
       paddingTop: value,
-      paddingBottom: value,
-    }),
+      paddingBottom: value
+    })
   },
   media: {
     bp1: '(min-width: 520px)',
-    bp2: '(min-width: 900px)',
-  },
+    bp2: '(min-width: 900px)'
+  }
 })

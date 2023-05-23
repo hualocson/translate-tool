@@ -10,7 +10,10 @@ export default function MyDocument() {
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
       </Head>
-      <body>
+      <body style={{
+        padding: 0,
+        margin: 0,
+      }}>
         <Main />
         <NextScript />
       </body>
